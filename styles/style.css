@@ -1,0 +1,128 @@
+body{
+    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    /* display: flex; */
+    /* justify-content: center; */
+    margin: 0;
+    color: balck;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    
+}
+.cart{
+    /* display: flex; */
+    flex-direction: row;
+    height: 700px;
+    width: 1300px;
+    background-color: #7C809B;
+    border-radius: 1%;
+    box-shadow: 10px 7px 9px 6px #434553;
+
+}
+.header{
+    display: flex;
+    justify-content: center;
+ font-size: 40px;
+ font-weight: bolder;   
+}
+.items{
+    display: flex;
+    -ms-flex-order: 3;
+    flex-flow: column;
+    margin: 15px;
+}
+.item1{
+    flex-grow: 8;
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+    /* margin-top: 4px; */
+}
+.img{
+    height: 200px;
+    width: 250px;
+    /* background-color: red;  */
+    /* flex-grow: 4; */
+    /* background-image: url(/assests/Apple.jpg); */
+    border-radius: 10px;
+}
+.details{
+    height: 200px;
+    width: 250px;
+    /* display: flex;
+    align-items:center;
+    justify-content: center; */
+    align-content: center;
+    justify-content: center;
+    font-size: 20px;
+}
+.num{
+    height: 200px;
+    width: 250px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.end{
+    height: 200px;
+    width: 250px;
+   text-align: end;
+   padding-right: 5px;
+   font-size: 20px;
+}
+.item2{
+    flex-grow: 8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 200px;
+}
+.btn{
+    width: 30px;
+    height: 30px;
+    border-radius: 25px;
+    border-color: #d9d9d9;
+}
+.btn:hover{
+    cursor: pointer;
+
+}
+.img2{
+    height: 200px;
+    width: 250px;
+    /* background-image: url(/assests/Mango.jpg); */
+    border-radius: 10px;
+}
+hr{
+    width: 1250px;
+    color: aqua;
+}
+.total{
+    justify-self: end;
+    align-self: flex-end;
+    background-color: green;
+    width: 300px;
+    height: 100px;
+
+}
+.total h3{
+    margin: 0;
+}
+.total p{
+    margin: 0;
+}
+.productListing div + div {
+    margin-top: 39px;
+}
+.productListing{
+    display: flex;
+    flex-direction: column;
+}
